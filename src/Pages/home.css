@@ -1,0 +1,127 @@
+.carousel-container .carousel-caption {
+    margin-bottom: 10%;
+    padding: 100px 10px;
+}
+.carousel-img{
+    max-height: 90vh;
+
+}
+.carousel-header{
+    font-size: 80px !important;
+}
+.carousel-text{
+    font-size: 30px;
+    font-weight: 600;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.529);
+}
+.carousel-header span{
+    color: #2251FF;
+}
+.home-page-content-container{
+    background-color: #F0F0F0;
+}
+.pitmen-trends{
+    text-align: center;
+    padding: 20px;
+    font-family: Bower,Georgia,Times New Roman,serif;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+}
+.p-content-text{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-bottom: 40px;
+}
+.col-md-6{
+    padding: 0 !important;
+}
+.text-content-col{
+    padding-top: 10% !important;
+    text-align: center;
+}
+.content-btn{
+    padding: 10px 20px;
+    background-color: transparent;
+    border-color: #bbbbbb;
+    color: #616161;
+    font-weight: 600;
+    border-style: solid;
+    transition: 0.2s all linear;
+    margin-bottom: 40px;
+}
+.content-btn:hover{
+    background-color: #2251FF;
+    border-color: #2251FF;
+    color: white;
+}
+.insight-container{
+    text-align: center;
+}
+.insight{
+    margin: 50px;
+    padding: 200px;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 20px;
+}
+
+.carousel-img img{
+    width: 100%;
+}
+@media only screen and (max-width:820px){
+    .carousel-caption{
+        padding: 42px 10px !important;
+        margin-bottom: 20% !important;
+        
+    }
+    .carousel-header {
+        font-size: 43px !important;
+    }
+    .carousel-text{
+        font-size: 22px;
+    }
+    .row-1,.row-3{
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (max-width:620px){
+    .carousel-caption{
+        padding: 42px 10px !important;
+        margin-bottom: 10% !important;
+        padding: 20px 10px !important;
+
+        
+    }
+    .insight{
+        border: none;
+    }
+  
+}
+@media only screen and (max-width:420px){
+    .carousel-header {
+        font-size: 32px !important;
+    }
+    .carousel-text{
+        font-size: 16px;
+    }
+    .p-content-text {
+    
+     font-size: 16px;
+    }
+    .home-page-content-container .row{
+        padding: 0;
+        margin: 0;
+    }
+    .insight{
+        padding: 50px;
+    }
+    .footer-icon-list{
+        float: none !important;
+    }
+
+    }
